@@ -1,0 +1,184 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid e386b8be-85b4-49c6-b5b9-9601b4fcf156)
+
+  (paper "A4")
+
+  (title_block
+    (title "Raspberry Pi Compute Module 4 Base Carrier")
+    (date "2022-05-17")
+    (rev "v01")
+    (comment 2 "creativecommons.org/licenses/by-sa/4.0/")
+    (comment 3 "License: CC BY 4.0")
+    (comment 4 "Author: Ido Azulai")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 101.6 101.6) (size 38.1 38.1)
+    (stroke (width 0) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid caa71f4c-454d-4ac9-b287-456eafb34991)
+    (property "Sheet name" "CM4 High Speed" (id 0) (at 101.6 100.9645 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "cm4-high-speed.kicad_sch" (id 1) (at 101.6 140.2085 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 101.6 50.8) (size 38.1 38.1)
+    (stroke (width 0) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid fc4c71a5-1008-4ac4-98db-57c838c57d91)
+    (property "Sheet name" "CM4 GPIO" (id 0) (at 101.6 50.1645 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "cm4-gpio.kicad_sch" (id 1) (at 101.6 89.4085 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91" (page "3"))
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/230650eb-8852-4c76-b63c-12ec79910b81"
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/31551326-27c6-4bba-a0c0-abe772948a8c"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/a47eae64-0d35-4966-a90e-f43274f33bcf"
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/7b9c2e80-0214-4bb1-9632-ddeea986bba0"
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/f6b9d301-3f3b-421b-b0e3-c348cd637a31"
+      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/11a6e4d5-d421-4ee2-be61-9490f3e7b177"
+      (reference "#PWR09") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/0d0caf91-4ece-48ed-a178-43a8b49f3526"
+      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/81f0d702-912e-410d-83f3-c9f3bd3f7f28"
+      (reference "#PWR011") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/dbf97f6e-7eab-4d6d-b034-9b4608706447"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/1a3797c6-695b-44e1-9b57-60431385ad86"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/03ff066b-2335-4da3-a6e8-00d49fd02613"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/08b57455-5df0-41c0-8c03-e97a9bea4a79"
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/b5999c50-f577-477a-a101-6e2dae7482c9"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/b71eb2ba-0715-4155-8e5a-5fb78827333d"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/f065de18-6018-4747-b78d-228da885f8cc"
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/1b8ebaca-2bc9-4424-bd0b-9d1c6813f011"
+      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/561a3f8d-ba1d-4204-8951-cfb38f56852b"
+      (reference "A1") (unit 1) (value "Tamir XBee") (footprint "Xbee:xbee_tht")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/6a4b89c7-52c8-4c8a-98b0-1e2d83fa8294"
+      (reference "C_puff1") (unit 1) (value "220pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/f324ffe4-82f1-4831-ad1f-1bbaa6d7f01d"
+      (reference "C_puff2") (unit 1) (value "220pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/c17a8811-01c3-486a-b440-2071dcdb6e3d"
+      (reference "D1") (unit 1) (value "LED Green") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/8c49794a-b0bd-4ccc-a38c-11ea511ffe48"
+      (reference "D2") (unit 1) (value "LED Red") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/cc0b7e6e-ad20-4939-829c-f373b0e18072"
+      (reference "J1") (unit 1) (value "IMU") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/79304be6-3612-4110-aecb-a64d10f12a87"
+      (reference "J2") (unit 1) (value "Tamir Radio") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/e83a676d-09ae-4723-8889-0af80c8dcb40"
+      (reference "J3") (unit 1) (value "spare GPIO") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/76370264-8777-4f1e-94f2-f570f6924f77"
+      (reference "J4") (unit 1) (value "Detonator 1") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/6b2eeb9d-e42f-4e50-874b-e4a956d7b271"
+      (reference "J5") (unit 1) (value "Baro main") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/986b1a7b-3864-4540-9d5a-d407392678c0"
+      (reference "J6") (unit 1) (value "Baro mid") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/88ba1354-ed8d-4cff-80a4-b516f7b476a5"
+      (reference "J7") (unit 1) (value "Hall effect up") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/f0201e03-c64c-463f-acbb-c0d0c6be5ca3"
+      (reference "J8") (unit 1) (value "Power") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/9f27e8be-4287-4a15-aa69-e967863053cd"
+      (reference "J9") (unit 1) (value "Baro low") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/bbc58318-95f0-4dee-b141-ccc539dc68b6"
+      (reference "J10") (unit 1) (value "Detonator 2") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/cfd53a10-2c6d-4527-a52b-44a83bba2589"
+      (reference "J11") (unit 1) (value "Hall effect mid") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/b20a6be0-7abd-4ffe-8ab9-e954c81bd4a0"
+      (reference "J12") (unit 1) (value "+3.3V_spares") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/8199cf0d-9cde-45a3-b90e-ea09605a7fed"
+      (reference "J13") (unit 1) (value "Hall effect low") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/3cea5241-b49a-4899-883a-ab0bcff99f42"
+      (reference "J14") (unit 1) (value "+5V_spares") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/3640b4c1-c971-489a-9666-2eef4c99da62"
+      (reference "J15") (unit 1) (value "GND_spares") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/da670a44-c854-4948-bdd9-144fc9f7f838"
+      (reference "J16") (unit 1) (value "GPS") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/f4cef7b1-4990-4b19-a625-6bb1a7c87583"
+      (reference "J17") (unit 1) (value "Detonator 3") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/21e2042a-8b5c-4e2f-a785-a9ac9a17963c"
+      (reference "J19") (unit 1) (value "Detonator second stage") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/463d59ed-ef45-4402-9140-190527b0aff8"
+      (reference "Module1") (unit 1) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/fafda8be-1326-444e-bcc1-8cb4aded3240"
+      (reference "Module1") (unit 2) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/eb89ce36-6783-4eed-b7b9-bced8d99c5d7"
+      (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/0e9be658-ed1d-4997-954f-825e2f15860c"
+      (reference "R2") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/f25b6c45-686b-4516-8d95-dcaac3712d12"
+      (reference "U1") (unit 1) (value "74LVC1G07SE-7") (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5")
+    )
+  )
+)

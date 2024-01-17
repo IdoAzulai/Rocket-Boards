@@ -1,0 +1,9 @@
+Comment,Designator,Footprint
+220pF,C_puff1,Capacitor_SMD:C_0603_1608Metric
+220pF,C_puff2,Capacitor_SMD:C_0603_1608Metric
+LED Green,D1,LED_SMD:LED_0603_1608Metric
+LED Red,D2,LED_SMD:LED_0603_1608Metric
+ComputeModule4-CM4,Module1,DF40C-100DS-0.4V
+1k,R1,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+1k,R2,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+74LVC1G07SE-7,U1,Package_TO_SOT_SMD:SOT-353_SC-70-5

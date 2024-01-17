@@ -1,0 +1,6 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"J2","Tamir Radio","PinHeader_1x04_P2.54mm_Vertical",-167.132000,-125.593000,0.000000,bottom
+"J3","spare GPIO","PinHeader_1x03_P2.54mm_Vertical",-152.908000,-136.398000,180.000000,bottom
+"J4","Detonator 1","PinHeader_1x02_P2.54mm_Vertical",-115.062000,-121.158000,180.000000,bottom
+"J17","Detonator 3","PinHeader_1x02_P2.54mm_Vertical",-108.458000,-121.153000,180.000000,bottom
+"J19","Detonator second stage","PinHeader_1x02_P2.54mm_Vertical",-121.412000,-121.158000,180.000000,bottom
